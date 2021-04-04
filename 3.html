@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WEB-Javascript</title>
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="color.js"></script>
+    <!--head태그에 넣을 필요는 없음-->
+  </head>
+
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+
+    <!--괄호 안에 body태그 대신, body태그에 id=target넣어서 괄호 안에 #target넣어도 됨*/-->
+
+    <input id="night_day" type="button" value="night" onclick="
+      nightDayHandler(this);
+       ">
+      <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html">CSS</a></li>
+        <li><a href="3.html">Javascript</a></li>
+      </ol>
+    <h2>Javascript</h2>
+    <p>자바스크립트(영어: JavaScript)는 객체 기반의 스크립트 프로그래밍 언어이다.
+      이 언어는 웹 브라우저 내에서 주로 사용하며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다.
+      또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다. </p>
+
+    <input type="button" value="night" onclick="
+      nightDayHandler(this);
+        ">
+    <!--this키워드와 변수선언을 동시에 이용해서 훨씬 간결해진 버전-->
+
+  </body>
+</html>
